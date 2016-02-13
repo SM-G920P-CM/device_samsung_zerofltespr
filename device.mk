@@ -15,10 +15,10 @@
 #
 
 ## (2) Also get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/samsung/zerofltexx/zerofltexx-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/zerofltespr/zerofltespr-vendor.mk)
 
 ## device overlays
-DEVICE_PACKAGE_OVERLAYS += device/samsung/zerofltexx/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/zerofltespr/overlay
 
 # Inherit from zero-common
 $(call inherit-product, device/samsung/zero-common/zero-common.mk)
