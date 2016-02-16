@@ -31,3 +31,6 @@ TARGET_KERNEL_CONFIG := cm_zerofltespr_defconfig
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3656552448
+
+# Radio
+BOARD_MODEM_TYPE := mdm9x35
